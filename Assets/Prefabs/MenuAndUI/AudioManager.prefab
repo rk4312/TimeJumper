@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &787440844638959830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787440844638959824}
+  - component: {fileID: 787440844638959825}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &787440844638959824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787440844638959830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 916.5323, y: 401.00073, z: -235.60274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &787440844638959825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787440844638959830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227ad0b8baf27b74c9c630784d1421be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Click
+    clip: {fileID: 8300000, guid: fa8c1737f8d20a84087736df17efdaa8, type: 3}
+    volume: 1
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Charge Jump 1
+    clip: {fileID: 8300000, guid: 2f61d69c44c631c4b9b8d92316a6eefc, type: 3}
+    volume: 0.3
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Charge Jump 2
+    clip: {fileID: 8300000, guid: 65d813923c77d994fa72e1750e91d0f5, type: 3}
+    volume: 0.3
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Charging
+    clip: {fileID: 8300000, guid: 2f0b972aaed7973489b2a43b6dacfc56, type: 3}
+    volume: 0.2
+    loop: 1
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 9dc74b03f1557bc4e8a2f4f38363a17f, type: 3}
+    volume: 0.04
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Land Future
+    clip: {fileID: 8300000, guid: 215ce3fa6ab55e94caae5390e384037b, type: 3}
+    volume: 0.1
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Land Past
+    clip: {fileID: 8300000, guid: 06023de4a1b03b74d99d0f4af1fc7f86, type: 3}
+    volume: 0.1
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Transition
+    clip: {fileID: 8300000, guid: 7dd628057134cb24788b7fb1783aa292, type: 3}
+    volume: 0.4
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
+  - name: Cave Ambience 1
+    clip: {fileID: 8300000, guid: 84bdf2429770b81428eacb77373b80f5, type: 3}
+    volume: 1
+    loop: 1
+    ignoreListenerPause: 1
+    source: {fileID: 0}
+  - name: Cave Ambience 2
+    clip: {fileID: 8300000, guid: 1610c602b0bfbc4438aa797b84049d15, type: 3}
+    volume: 0.2
+    loop: 1
+    ignoreListenerPause: 1
+    source: {fileID: 0}
+  - name: Time Switch
+    clip: {fileID: 8300000, guid: e37840f224c4d364cb75287fb0561b59, type: 3}
+    volume: 0.4
+    loop: 0
+    ignoreListenerPause: 0
+    source: {fileID: 0}
